@@ -29,8 +29,8 @@ const ClickHandler = ({ onSelectLocation }) => {
 const MapWithRoute = () => {
   const [start, setStart] = useState("28.618771,77.027957");
   const [end, setEnd] = useState("28.672911,77.104996");
-  const [startText, setStartText] = useState("Astitva");
-  const [endText, setEndText] = useState("Mansi");
+  const [startText, setStartText] = useState("Pikachu");
+  const [endText, setEndText] = useState("Michu");
 
   const [route, setRoute] = useState([]);
   const [clickMode, setClickMode] = useState("start");
@@ -76,8 +76,8 @@ const MapWithRoute = () => {
   const handleReset = () => {
     setStart("28.618771,77.027957");
     setEnd("28.672911,77.104996");
-    setStartText("Astitva");
-    setEndText("Mansi");
+    setStartText("Pikachu");
+    setEndText("Michu");
     setRoute([]);
     setClickMode("start");
   };
