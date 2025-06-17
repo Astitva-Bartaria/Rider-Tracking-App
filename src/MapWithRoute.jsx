@@ -131,7 +131,7 @@ const MapWithRoute = () => {
             Reset
           </button>
           <button className="btn btn-primary fw-bold w-100" onClick={getRoute}>
-            Send Hugs
+            Start
           </button>
         </div>
       </div>
